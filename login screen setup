@@ -10,3 +10,9 @@ mv config.jsonc config.jsonc.bak
 wget https://github.com/fastfetch-cli/fastfetch/raw/dev/presets/neofetch.jsonc
 # rename config
 mv neofetch.jsonc config.jsonc
+# .bashrc edit
+echo ""
+fastfetch
+
+echo ""
+figlet -f slant "SERVER/APP-NAME" | lolcat
